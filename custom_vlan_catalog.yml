@@ -1,0 +1,5 @@
+custom_anta_tests.vlan_tests:
+  - VerifyInterfaceVLANs:
+      interfaces:
+        - name: Port-Channe1000
+          vlans: [10,30,100]
