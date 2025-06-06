@@ -8,22 +8,30 @@ anta_inventory:
   #   name: A-SPINE3
   # - host: 192.168.0.14
   #   name: A-SPINE4
-  - host: 10.18.139.23
+  - host: 10.18.130.116
     name: A-LEAF1
-  # - host: 
-  #   name: A-LEAF2
-  # - host: 192.168.0.103
-  #   name: A-LEAF3
-  # - host: 192.168.0.104
-  #   name: A-LEAF4
-  # - host: 192.168.0.105
-  #   name: A-LEAF5
-  # - host: 192.168.0.106
-  #   name: A-LEAF6
-  # - host: 192.168.0.107
-  #   name: A-LEAF7
-  # - host: 192.168.0.108
-  #   name: A-LEAF8
+    tags: ['leaf']
+  - host: 10.18.129.72
+    name: A-LEAF2
+    tags: ['leaf']
+  - host: 10.18.130.199
+    name: A-LEAF3
+    tags: ['leaf']
+  - host: 10.18.130.190
+    name: A-LEAF4
+    tags: ['leaf']
+  - host: 10.18.130.127
+    name: A-LEAF5
+    tags: ['leaf']
+  - host: 10.18.128.40
+    name: A-LEAF6
+    tags: ['leaf']
+  - host: 10.18.130.177
+    name: A-LEAF7
+    tags: ['leaf']
+  - host: 10.18.129.3
+    name: A-LEAF8
+    tags: ['leaf']
   # - host: 192.168.0.15
   #   name: B-SPINE1
   # - host: 192.168.0.16
